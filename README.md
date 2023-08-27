@@ -14,6 +14,9 @@ Try it out now using the instructions below.
 
 - Proper Python version and environment isolation with [pyenv](https://github.com/pyenv/pyenv).
 - No unwanted interactions or side effects with any pre-exisiting Python libraries, and entrypoints pointing to different Python versions.
+- Easily swap between any of the following Stable Diffusion interfaces depending on your requirements:
+  - [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+  - **TODO:** [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - Auto-installation & updates of popular Stable Diffusion workflow tools on every startup:
   - [ControlNet](https://github.com/Mikubill/sd-webui-controlnet)
   - [Regional Prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
@@ -40,6 +43,8 @@ Try it out now using the instructions below.
 
 ## Notes
 
-- Automatic1111 is installed at `$HOME\stable-diffusion\automatic1111`.
+- Project files are installed at the following locations:
+   - Automatic1111 - `$HOME\stable-diffusion\automatic1111`
+   - **TODO:** ComfyUI - `$HOME\stable-diffusion\comfyui`
 - Model files are to be added to `$HOME\stable-diffusion\models`, if any.
 - Tested on Windows 10 22H2 with an Nvidia GeForce GTX 1070.

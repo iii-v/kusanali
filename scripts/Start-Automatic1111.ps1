@@ -287,6 +287,22 @@ Function Start-Automatic1111 {
     }
 }
 
+Function Start-ComfyUI {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory)]
+        [string]
+        $ProjectPath,
+
+        [Parameter(Mandatory)]
+        [string]
+        $PythonVersion
+    )
+
+    Write-Verbose "ComfyUI is not available yet, please use Automatic1111."
+    exit
+}
+
 Start-Automatic1111 `
     -ProjectPath (Join-Path $HOME "stable-diffusion\automatic1111") `
     -PythonVersion "3.10.6" `
